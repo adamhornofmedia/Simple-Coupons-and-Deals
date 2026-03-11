@@ -1,4 +1,4 @@
-# SCP Kupony a Akce
+# Simple Coupons & Deals
 
 WordPress plugin pro správu **kuponů a akcí** s možností jejich zobrazení pomocí shortcodů.  
 Plugin umožňuje vytvářet nabídky s logem e‑shopu, popisem, kuponovým kódem a affiliate odkazem.
