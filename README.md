@@ -1,5 +1,178 @@
 # Simple Coupons & Deals
 
+> [English](#english) | [Česky](#česky)
+
+---
+
+<a name="english"></a>
+# English
+
+WordPress plugin for managing **coupons and deals** with shortcode-based display.  
+Allows creating offers with a shop logo, description, coupon code, and affiliate link.
+
+Coupons can be displayed:
+- on a standalone page
+- on a subpage listing all coupons
+- **directly inside posts** using a shortcode
+
+## Demo
+
+https://xqe.cz/kupony/
+
+---
+
+## Features
+
+- custom **Custom Post Type**
+- distinction between:
+  - **Coupon** (contains a code)
+  - **Deal** (link to offer only)
+- ability to mark an offer as **active / inactive**
+- display of **shop logo**
+- **copy coupon code** button
+- **Go to store** button
+- shortcode for:
+  - a single offer
+  - a list of offers
+- coupons can be **embedded inside posts**
+
+---
+
+## Custom Post Type
+
+The plugin registers a custom post type:
+
+```
+scp_offer
+```
+
+Displayed in the WordPress admin as:
+
+```
+Kupony & Akce
+```
+
+---
+
+## Shortcodes
+
+### Display a single offer
+
+```
+[nabidka id="123"]
+```
+
+Displays a specific coupon or deal by post ID.
+
+Can be embedded in:
+- a page
+- a post
+- a landing page
+
+---
+
+### List all offers
+
+```
+[nabidky]
+```
+
+Displays all active offers.
+
+#### Filters
+
+Coupons only:
+
+```
+[nabidky type="kupon"]
+```
+
+Deals only:
+
+```
+[nabidky type="akce"]
+```
+
+Limit count:
+
+```
+[nabidky count="5"]
+```
+
+---
+
+## Offer structure
+
+Each offer can contain:
+
+- offer title
+- description
+- shop logo
+- coupon code
+- affiliate / deal URL
+- offer type (coupon / deal)
+- active / inactive status
+
+---
+
+## Installation
+
+1. download the plugin
+2. upload to:
+
+```
+/wp-content/plugins/
+```
+
+3. activate in the WordPress admin
+
+---
+
+## Known issues
+
+### Inactive coupons in search results
+
+WordPress search may return **inactive coupons**.
+
+Reason:
+WordPress search ignores the meta field:
+
+```
+_scp_aktivni
+```
+
+#### Possible fix
+
+Use the `pre_get_posts` filter to adjust the search query.
+
+This fix is not yet implemented.
+
+---
+
+## Roadmap
+
+Planned features:
+
+- Optimization for the official WordPress repository
+- Gutenberg block
+- Improved CSS styling
+- Click statistics for affiliate links
+- More languages
+- Rebrand
+
+---
+
+## Author
+
+Adam Hornof  
+https://hornof.dev
+
+---
+---
+
+<a name="česky"></a>
+# Česky
+
 WordPress plugin pro správu **kuponů a akcí** s možností jejich zobrazení pomocí shortcodů.  
 Plugin umožňuje vytvářet nabídky s logem e‑shopu, popisem, kuponovým kódem a affiliate odkazem.
 
@@ -14,7 +187,7 @@ https://xqe.cz/kupony/
 
 ---
 
-# Funkce
+## Funkce
 
 - vlastní **Custom Post Type**
 - rozlišení mezi:
@@ -31,7 +204,7 @@ https://xqe.cz/kupony/
 
 ---
 
-# Custom Post Type
+## Custom Post Type
 
 Plugin registruje vlastní typ příspěvku:
 
@@ -47,9 +220,9 @@ Kupony & Akce
 
 ---
 
-# Shortcody
+## Shortcody
 
-## Zobrazení jedné nabídky
+### Zobrazení jedné nabídky
 
 ```
 [nabidka id="123"]
@@ -64,7 +237,7 @@ Kupon lze vložit:
 
 ---
 
-## Výpis všech nabídek
+### Výpis všech nabídek
 
 ```
 [nabidky]
@@ -72,7 +245,7 @@ Kupon lze vložit:
 
 Zobrazí všechny aktivní nabídky.
 
-### Filtry
+#### Filtry
 
 Pouze kupony:
 
@@ -94,7 +267,7 @@ Omezení počtu:
 
 ---
 
-# Struktura nabídky
+## Struktura nabídky
 
 Každá nabídka může obsahovat:
 
@@ -108,7 +281,7 @@ Každá nabídka může obsahovat:
 
 ---
 
-# Instalace
+## Instalace
 
 1. stáhnout plugin
 2. nahrát do:
@@ -121,9 +294,9 @@ Každá nabídka může obsahovat:
 
 ---
 
-# Známé problémy
+## Známé problémy
 
-## Neaktivní kupony ve vyhledávání
+### Neaktivní kupony ve vyhledávání
 
 Při použití WordPress vyhledávání se mohou zobrazovat i **neaktivní kupony**.
 
@@ -134,7 +307,7 @@ WordPress search ignoruje meta field:
 _scp_aktivni
 ```
 
-### Možné řešení
+#### Možné řešení
 
 Použít filtr `pre_get_posts` a upravit search query.
 
@@ -142,20 +315,18 @@ Tato oprava zatím není implementována.
 
 ---
 
-# Roadmap
+## Roadmap
 
 Plánované funkce:
 
-- Optimalizace pro oficiální repozitář.
+- Optimalizace pro oficiální repozitář
 - Gutenberg blok
-- lepší CSS stylování
-- statistika kliknutí na affiliate odkazy
-- Více jazyků
-- Rebrand
+- Lepší CSS stylování
+- Statistika kliknutí na affiliate odkazy
 
 ---
 
-# Autor
+## Autor
 
 Adam Hornof  
 https://hornof.dev

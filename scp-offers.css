@@ -138,4 +138,11 @@
         width: 100%;
         text-align: center;
     }
+    .scp-code-row span[id^="scp-code-"] {
+        overflow: visible;
+        text-overflow: clip;
+        white-space: normal;
+        word-break: break-all;
+        font-size: 1.1em;
+    }
 }
