@@ -151,6 +151,7 @@ Plánované funkce:
 - lepší CSS stylování
 - statistika kliknutí na affiliate odkazy
 - Více jazyků
+- Rebrand
 
 ---
 
