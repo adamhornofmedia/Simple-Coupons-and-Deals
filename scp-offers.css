@@ -1,0 +1,141 @@
+.scp-offers-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.scp-offer {
+    box-sizing: border-box;
+    width: 320px;
+    min-height: 340px;
+    max-height: 340px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid #000;
+    padding: 0;
+    margin-bottom: 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.scp-offer-inner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.scp-offer img {
+    max-height: 50px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.scp-offer h3 {
+    text-align: center;
+    margin: 0 0 10px 0;
+    font-size: 1.15em;
+}
+
+.scp-offer > div,
+.scp-offer > p {
+    flex-shrink: 0;
+}
+
+.scp-offer .scp-copy-btn {
+    margin-top: 0;
+}
+
+.scp-offer a {
+    margin-top: 10px;
+}
+
+.scp-code-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 10px;
+    min-width: 0;
+}
+
+.scp-code-row span[id^="scp-code-"] {
+    max-width: 100%;
+    box-sizing: border-box;
+    word-break: break-all;
+    font-size: 1.3em;
+    flex: 1 1 0;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.scp-code-row .scp-copy-btn {
+    flex: 0 0 auto;
+    max-width: 100%;
+    box-sizing: border-box;
+    white-space: nowrap;
+    padding: 5px 10px;
+    background: #2563eb;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.scp-offer-inner p {
+    margin-bottom: 0;
+    word-break: break-word;
+}
+
+.kupon-code {
+    display: inline-block;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    text-align: center;
+    padding: 8px 16px;
+    font-size: 1.2em;
+    background: #f5f5f5;
+    border-radius: 6px;
+    margin-right: 8px;
+}
+
+@media (max-width: 700px) {
+    .scp-offers-list {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .scp-offer {
+        width: 100%;
+        max-width: 100%;
+        min-height: 0;
+        max-height: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .scp-offer {
+        width: 100%;
+        min-height: 0;
+        max-height: none;
+    }
+    .scp-code-row {
+        flex-direction: column;
+        gap: 6px;
+        align-items: stretch;
+    }
+    .scp-code-row span[id^="scp-code-"],
+    .scp-code-row .scp-copy-btn {
+        width: 100%;
+        text-align: center;
+    }
+}
