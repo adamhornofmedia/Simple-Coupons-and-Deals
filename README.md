@@ -150,6 +150,7 @@ Plánované funkce:
 - Gutenberg blok
 - lepší CSS stylování
 - statistika kliknutí na affiliate odkazy
+- Více jazyků
 
 ---
 
