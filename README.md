@@ -146,8 +146,7 @@ Tato oprava zatím není implementována.
 
 Plánované funkce:
 
-- filtrování kuponů na stránce
-- automatická expirace kuponů
+- Optimalizace pro oficiální repozitář.
 - Gutenberg blok
 - lepší CSS stylování
 - statistika kliknutí na affiliate odkazy
@@ -157,6 +156,4 @@ Plánované funkce:
 # Autor
 
 Adam Hornof  
-
-Blog:  
-https://xqe.cz
+https://hornof.dev
