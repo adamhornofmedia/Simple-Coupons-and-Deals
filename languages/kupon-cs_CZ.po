@@ -1,0 +1,180 @@
+# Czech translation for Simple Coupons & Deals
+# Copyright (C) 2026 Adam Hornof
+# This file is distributed under the GPL-2.0-or-later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Coupons & Deals 1.2\n"
+"POT-Creation-Date: 2026-03-11T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-03-11T00:00:00+00:00\n"
+"Last-Translator: Adam Hornof\n"
+"Language-Team: Czech\n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: kupon\n"
+
+#. Plugin Name of the plugin
+msgid "Simple Coupons & Deals"
+msgstr "Jednoduché kupony a akce"
+
+#. Description of the plugin
+msgid "Manage coupons and deals with code copying, logo, and link support."
+msgstr "Správa kuponů a akcí s možností kopírování kódu, logem a odkazem."
+
+#: kupon.php
+msgid "Offers"
+msgstr "Nabídky"
+
+#: kupon.php
+msgid "Offer"
+msgstr "Nabídka"
+
+#: kupon.php
+msgid "Add New Offer"
+msgstr "Přidat novou nabídku"
+
+#: kupon.php
+msgid "Edit Offer"
+msgstr "Upravit nabídku"
+
+#: kupon.php
+msgid "New Offer"
+msgstr "Nová nabídka"
+
+#: kupon.php
+msgid "View Offer"
+msgstr "Zobrazit nabídku"
+
+#: kupon.php
+msgid "Search Offers"
+msgstr "Hledat nabídky"
+
+#: kupon.php
+msgid "No offers found"
+msgstr "Nabídky nenalezeny"
+
+#: kupon.php
+msgid "No offers in trash"
+msgstr "Žádné nabídky v koši"
+
+#: kupon.php
+msgid "Coupons & Deals"
+msgstr "Kupony & Akce"
+
+#: kupon.php
+msgid "Simple Coupons & Deals Settings"
+msgstr "Nastavení Simple Coupons & Deals"
+
+#: kupon.php
+msgid "Settings saved."
+msgstr "Nastavení uloženo."
+
+#: kupon.php
+msgid "Ad Shortcode (shown every 4 offers)"
+msgstr "Reklamní shortcode (zobrazí se po každé 4. nabídce)"
+
+#: kupon.php
+msgid "Optional shortcode inserted after every 4th offer."
+msgstr "Volitelný shortcode vložený po každé 4. nabídce."
+
+#: kupon.php
+msgid "All stores"
+msgstr "Všechny obchody"
+
+#: kupon.php
+msgid "No active offers."
+msgstr "Žádné aktivní nabídky."
+
+#: kupon.php
+msgid "Offer Details"
+msgstr "Detaily nabídky"
+
+#: kupon.php
+msgid "Active"
+msgstr "Aktivní"
+
+#: kupon.php
+msgid "Offer type:"
+msgstr "Typ nabídky:"
+
+#: kupon.php
+msgid "Coupon"
+msgstr "Kupon"
+
+#: kupon.php
+msgid "Deal"
+msgstr "Akce"
+
+#: kupon.php
+msgid "Coupon code:"
+msgstr "Kód kuponu:"
+
+#: kupon.php
+msgid "Only valid for coupons."
+msgstr "Platné pouze pro kupony."
+
+#: kupon.php
+msgid "Store/deal URL:"
+msgstr "URL eshopu/akce:"
+
+#: kupon.php
+msgid "Store/deal logo URL:"
+msgstr "URL loga eshopu/akce:"
+
+#: kupon.php
+msgid "Valid until:"
+msgstr "Platnost do:"
+
+#: kupon.php
+msgid "The offer will be automatically deactivated after this date."
+msgstr "Kupon bude po tomto datu automaticky deaktivován."
+
+#: kupon.php
+msgid "Store:"
+msgstr "Obchod:"
+
+#: kupon.php
+msgid "Store name"
+msgstr "Název obchodu"
+
+#: kupon.php
+msgid "E.g. Amazon, eBay, Best Buy\xe2\x80\xa6"
+msgstr "Např. Alza, Mall, CZC\xe2\x80\xa6"
+
+#: kupon.php
+msgid "Shortcode for this offer:"
+msgstr "Shortcode pro tento kupon:"
+
+#: kupon.php
+msgid "Copied!"
+msgstr "Zkopírováno!"
+
+#: kupon.php
+msgid "Copy"
+msgstr "Kopírovat"
+
+#: kupon.php
+msgid "Active offer (show in listing)"
+msgstr "Aktivní nabídka (zobrazit ve výpisu)"
+
+#: kupon.php
+msgid "Offer not found"
+msgstr "Nabídka nenalezena"
+
+#: kupon.php
+#. translators: %s: expiry date formatted as d.m.Y
+msgid "Valid until: %s"
+msgstr "Platnost do: %s"
+
+#: kupon.php
+msgid "Copy code"
+msgstr "Kopírovat kód"
+
+#: kupon.php
+msgid "Go to store"
+msgstr "Přejít na eshop"
+
+#: kupon.php
+msgid "Shortcode"
+msgstr "Shortcode"
