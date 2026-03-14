@@ -1,11 +1,11 @@
 # Simple Coupons & Deals
 
-> [English](#english) | [Česky](#česky)
+> [🇬🇧 English](#english) | [🇨🇿 Česky](#česky)
 
 ---
 
 <a name="english"></a>
-# English
+# 🇬🇧 English
 
 WordPress plugin for managing **coupons and deals** with shortcode-based display.  
 Allows creating offers with a shop logo, description, coupon code, and affiliate link.
@@ -171,7 +171,7 @@ https://hornof.dev
 ---
 
 <a name="česky"></a>
-# Česky
+# 🇨🇿 Česky
 
 WordPress plugin pro správu **kuponů a akcí** s možností jejich zobrazení pomocí shortcodů.  
 Plugin umožňuje vytvářet nabídky s logem e‑shopu, popisem, kuponovým kódem a affiliate odkazem.
